@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+
+.pimg1 {
+    background-image: url(./NY.jpg);
+    height: 100%;
+}
+
+.pimg2 {
+    background-image: url(./forest.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(./beach.jpg);
+    min-height: 400px;
+}
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section_dark {
+    background: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    /* color: #fff; */
+    letter-spacing: 3px;
+}
+
+.ptext .border {
+    background-color: #111;
+    padding: 20px;
+    color: #fff;
+}
+
+/* .transparent {
+    color: #fff;
+} */
